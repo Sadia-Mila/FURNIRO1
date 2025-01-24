@@ -1,0 +1,7 @@
+Figma Link
+
+https://www.figma.com/design/n2Z6zp4bRhvAdv5GsvrqV5/eCommerce-Website-%7C-Web-Page-Design-%7C-UI-KIT-%7C-Interior-Landing-Page-(Community)-(Copy)-(Copy)?node-id=0-1&t=tY8TL4swRpVbJSvs-
+
+
+
+font-family: "Poppins", serif;

@@ -1,0 +1,293 @@
+
+/* All Commont Css Start */
+*{
+    margin: 0;
+    padding:0;
+    outline:0;
+    font-family: "Poppins", serif;
+}
+
+a{
+    text-decoration:none;
+    display:inline-block;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+    padding:0;
+    line-height:0.8;
+}
+.container{
+    width:1240px;
+    margin:0 auto;
+}
+
+/* All Commont Css End */
+
+
+/* Navebar Part Css Start */
+#navbarPart{
+    padding:40px;
+}
+
+.navbarFlex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li{
+    display:inline-block;
+}
+
+.menu ul li a{
+    font-weight: 500;
+    font-size:16px;
+    color:black;
+    padding:0 37px;
+}
+
+.iconsFlex{
+    display:flex; 
+    align-items: center;
+    column-gap: 46px;
+}
+
+/* Navbar Part Css End */
+
+/* Banner Part Css Start */
+#bannerPart{
+    background:url(../images/banner.png) no-repeat;
+    background-position: center;
+    block-size: cover;
+    padding: 153px 0px 115px 0px;
+}
+
+.card{
+    width:50%;
+    padding:70px 75px 36px 44px;
+    background:#FFF3E3;
+    margin-left: auto ;
+    border-radius: 10px;
+
+}
+
+.card h3{
+    font-size:16;
+    font-weight: 600;
+    color:#333333;
+
+}
+.card h1{
+    font-size:52px;
+    font-weight: 700;
+    line-height:65px;
+    color:#B88E2F;
+    padding-right:151px;
+    padding-top:20px;
+    padding-bottom:29px;
+}
+
+.card p{
+    font-size:18px;
+    font-weight:500;
+    line-height:24px;
+    color:#333333;
+    padding-bottom:55px;
+    padding-right:93px;
+   
+}
+.card a{
+    padding:25px 72px;
+    background:#B88E2F;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+/* Banner Part Css End */
+
+/* Room Part Css Start */
+#roomPart{
+    padding:68px 0px;
+}
+
+.commonHeader{
+    text-align: center;
+}
+.commonHeader h3{
+    font-size:32px;
+    font-weight:700;
+    color:#333333;
+    margin-bottom:19px;
+}
+.commonHeader p{
+    font-size:20px;
+    font-weight:400;
+    color:#666666;
+    margin-bottom:60px;
+}
+
+.roomFlex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.dinning h2, .living h2, .bedroom h2{
+    font-size:24px;
+    font-weight: 600;
+    color:#333333;
+    margin-top:36px;
+    text-align: center;
+}
+/* Room Part Css End */
+
+/* Product Part Css Start */
+#productPart h2{
+    text-align: center;
+    font-size:49px;
+    font-weight:700;
+    color:#3A3A3A;
+    padding-bottom:42px;
+}
+.productFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap:30px;
+}
+
+.productOne{
+    width:285px;
+    position:relative;
+    background:#F4F5F7;
+}
+
+.productDiscount{
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:#E97171;
+    position:absolute;
+    top:48px;
+    right:23px;
+}
+.productDiscount h3{
+    font-size: 16px;
+    font-weight: 500;
+    color:#fff;
+}
+
+.productOneText{
+    width:285px;
+}
+
+.productOneText h3{
+    font-size: 24px;
+    font-weight:600;
+    line-height: 120%;
+    padding-bottom:12px;
+    color:#3A3A3A;
+    padding-top:20px;
+    padding-left:15px;
+}
+
+.productOneText p{
+    font-size: 16px;
+    font-weight:500;
+    line-height: 150%;
+    padding-bottom:16px;
+    padding-left:15px;
+    color:#898989;
+}
+
+.productPrice{
+    display:flex;
+    padding-left:15px;
+    padding-bottom:32px;
+}
+.productPrice h6{
+    font-size: 20px;
+    font-weight:600;
+    line-height: 150%;
+    color:#3A3A3A;
+    padding-right:16px;
+}
+
+.productPrice h4{
+    font-size: 16px;
+    font-weight:400;
+    line-height: 150%;
+    color:#B0B0B0;
+    text-decoration: line-through;
+}
+.productTwooverlay{
+    background:rgba(7, 7, 7, 0.7);
+}
+
+.productBtn{
+    margin:30px 0px;
+    text-align: center;
+}
+
+.productBtn button a{
+    color:#B88E2F;
+}
+
+.productBtn button{
+    font-size: 16px;
+    font-weight:600;
+    line-height: 150%;
+    padding:17px 74px;
+    border:2px solid #B88E2F;
+}
+
+.productTwo{
+    position:relative;
+}
+
+.overlayText{
+    position:absolute;
+    top:38%;
+    left:7%;
+}
+
+.overlayText a{
+    font-size: 16px;
+    font-weight:600;
+    line-height: 150%;
+    color:#B88E2F;
+    padding:20px 70px;
+    background:#fff;
+
+}
+.overlayIcons{
+    padding-top:20px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.firstIcon, .secondIcon, .thirdIcon{
+    display:flex;
+    align-items: center;
+}
+.firstIcon svg, .secondIcon svg, .thirdIcon svg{
+    padding-right:3px;
+    font-size:30px;
+    font-weight:600;
+}
+.firstIcon p, .secondIcon p, .thirdIcon p{
+    color:#fff;
+    font-size: 16px;
+    font-weight:600;
+    line-height: 150%;
+}
+
+
+
+
